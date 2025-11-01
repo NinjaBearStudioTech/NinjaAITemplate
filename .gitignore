@@ -81,13 +81,4 @@ Package/*
 **/RiderLink
 
 # Ninja Bear Studio libraries
-**/NinjaCombat
-**/NinjaCommonUI
-**/NinjaFactions
-**/NinjaGAS
-**/NinjaInput
-**/NinjaInteraction
-**/NinjaInventory
-**/NinjaPerception
-**/NinjaProfile
-**/NinjaTokens
+**/Plugins/NinjaBearStudio/*

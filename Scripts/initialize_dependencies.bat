@@ -17,9 +17,10 @@ cd /d "%PLUGIN_DIR%"
 set REPO1=https://github.com/NinjaBearStudioTech/NinjaBot.git
 set REPO2=https://github.com/NinjaBearStudioTech/NinjaGAS.git
 set REPO3=https://github.com/NinjaBearStudioTech/NinjaFactions.git
-set REPO4=https://github.com/NinjaBearStudioTech/NinjaTokens.git
+set REPO4=https://github.com/NinjaBearStudioTech/NinjaStrategy.git
+set REPO5=https://github.com/NinjaBearStudioTech/NinjaTokens.git
 
-for %%R in (1 2 3 4) do (
+for %%R in (1 2 3 4 5) do (
     call set "REPO=!REPO%%R!"
     for %%A in (!REPO!) do (
         set "REPO_URL=%%A"
